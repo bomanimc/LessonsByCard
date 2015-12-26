@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'ArialRoundedMTBold';
+	src: url('dialupfonts/ArialRoundedMTBold.eot'); /* IE9 Compat Modes */
+	src: url('../dialupfonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+	url('dialupfonts/ArialRoundedMTBold.woff2') format('woff2'),
+	url('dialupfonts/ArialRoundedMTBold.woff') format('woff'),
+	url('dialupfonts/ArialRoundedMTBold.ttf')  format('truetype'),
+	url('dialupfonts/ArialRoundedMTBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 .stack {
 	margin: 0 auto;
 	position: relative;
@@ -7,6 +17,15 @@
 	padding: 0;
 	list-style: none;
     pointer-events: none;
+}
+
+.stack_text {
+	font-family: 'ArialRoundedMTBold';
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 100px;
+	align-self: center;
 }
 
 .stack__item {
@@ -29,6 +48,7 @@
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: auto;
+  	justify-content: center;
 }
 
 .stack__item img {
@@ -38,7 +58,7 @@
 }
 
 
-.a { background: #f39c12; }
+.a { background: #1abc9c; }
 .b { background: #3498db; }
 .c { background: #e74c3c; }
 .d { background: #bdc3c7; }
