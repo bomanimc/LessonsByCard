@@ -1,0 +1,45 @@
+.stack {
+	margin: 0 auto;
+	position: relative;
+	z-index: 1000;
+	width: 420px;
+	height: 600px;
+	padding: 0;
+	list-style: none;
+    pointer-events: none;
+}
+
+.stack__item {
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	opacity: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: auto;
+}
+
+.stack__item img {
+	width: 100%;
+	display: block;
+	pointer-events: none;
+}
+
+
+.a { background: #f39c12; }
+.b { background: #3498db; }
+.c { background: #e74c3c; }
+.d { background: #bdc3c7; }
+
