@@ -1,0 +1,12 @@
+{
+	"one": { //This is the question's name. This will be set to the ID.
+		"question" : "Tripoli is the capital of what country?",
+		"options" : [
+			"Mali",
+			"Nigeria",
+			"Libya",
+			"Canada"
+		]
+		"cp"
+	} 
+}
